@@ -44,7 +44,7 @@ DeepFace (Face recognition & authentication)
 
 PyJWT (Token management)
 
-PostgreSQL / MySQL (user + locker data storage)
+MySQL (user + locker data storage)
 
 Other Tools:
 
