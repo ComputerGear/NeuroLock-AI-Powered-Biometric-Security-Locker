@@ -27,27 +27,25 @@ Bank-Grade Security – Secure token handling, JWT authentication, encrypted dat
 🏗️ Tech Stack
 
 Frontend:
-
 React + Vite ⚡
-
 TailwindCSS (optional, for styling)
-
 Axios (API communication)
 
 Backend:
-
 FastAPI (Python)
-
 Mediapipe BlazeFace (Face detection + liveness check)
-
 DeepFace (Face recognition & authentication)
-
 PyJWT (Token management)
-
 MySQL (user + locker data storage)
 
 Other Tools:
-
 Docker (deployment)
 
 Nginx (reverse proxy)
+
+🏛️ System Workflow
+1. User uploads or captures face image  
+2. AI model validates identity  
+3. OTP sent to registered contact  
+4. Upon verification, JWT token is issued  
+5. User accesses secure locker operations 
